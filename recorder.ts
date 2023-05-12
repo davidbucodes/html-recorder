@@ -36,7 +36,7 @@ export class Recorder {
       video: true,
       audio: {
         noiseSuppression: false,
-        echoCancellation: false,
+        echoCancellation: true,
         autoGainControl: false,
       },
     });
